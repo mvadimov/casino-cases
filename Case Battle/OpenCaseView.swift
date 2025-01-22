@@ -1,10 +1,3 @@
-//
-//  OpenCaseView.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 24.04.24.
-//
-
 import SwiftUI
 import SwiftData
 import Foundation
@@ -46,9 +39,6 @@ struct OpenCaseView: View {
                                 ZStack {
                                     ZStack {
                                         Image(viewModel.openingCase ? "" : ccase.photoOfCase)
-                                            .resizable()
-                                            .frame(width: 200, height: 200)
-                                        Image(viewModel.openingCase ? "" : ccase.photoOfWeapon)
                                             .resizable()
                                             .frame(width: 200, height: 200)
                                     }

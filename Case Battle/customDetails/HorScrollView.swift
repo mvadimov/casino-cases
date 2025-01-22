@@ -1,10 +1,3 @@
-//
-//  OpenAnimView.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 30.04.24.
-//
-
 import SwiftUI
 
 struct HorizontalScrollableView<Content: View>: UIViewControllerRepresentable, Equatable {

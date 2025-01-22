@@ -1,10 +1,3 @@
-//
-//  InfoList.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 23.04.24.
-//
-
 import Foundation
 import SwiftData
 
@@ -45,7 +38,7 @@ class InfoList: ObservableObject {
     @Published var moneyQuantity = 1466.2
     
     @Published var cases: [Case] = [
-        Case(id: 1, name: "Терминиды", type: 1, isNew: true, price: 79, secPrice: 0, quantitySkins: 36, photoOfCase: "1", photoOfWeapon: "1.1", isLiked: true, skinRanges: [
+        Case(id: 1, name: "CHROMA", type: 1, isNew: true, price: 79, secPrice: 0, quantitySkins: 36, photoOfCase: "1", photoOfWeapon: "1.1", isLiked: true, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -60,7 +53,7 @@ class InfoList: ObservableObject {
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
         ]),
         
-        Case(id: 2, name: "Major 2024", type: 1, isNew: true, price: 555, secPrice: 0, quantitySkins: 45, photoOfCase: "2", photoOfWeapon: "2.1", isLiked: false, skinRanges: [
+        Case(id: 2, name: "CHROMA 2", type: 1, isNew: true, price: 555, secPrice: 0, quantitySkins: 45, photoOfCase: "2", photoOfWeapon: "2.1", isLiked: false, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -74,7 +67,7 @@ class InfoList: ObservableObject {
             11: [SkinRange(minNumber: 551, maxNumber: 670)],
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
         ]),
-        Case(id: 3, name: "Пирожок с вишней", type: 1, isNew: false, price: 89, secPrice: 0, quantitySkins: 38, photoOfCase: "3", photoOfWeapon: "3.1", isLiked: false, skinRanges: [
+        Case(id: 3, name: "OPERATION BREAKOUT", type: 1, isNew: false, price: 89, secPrice: 0, quantitySkins: 38, photoOfCase: "3", photoOfWeapon: "3.1", isLiked: false, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -88,7 +81,7 @@ class InfoList: ObservableObject {
             11: [SkinRange(minNumber: 551, maxNumber: 670)],
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
         ]),
-        Case(id: 4, name: "007", type: 1, isNew: false, price: 19, secPrice: 0, quantitySkins: 40, photoOfCase: "4", photoOfWeapon: "4.1", isLiked: false, skinRanges: [
+        Case(id: 4, name: "OPERATION WILDFIRE", type: 1, isNew: false, price: 19, secPrice: 0, quantitySkins: 40, photoOfCase: "4", photoOfWeapon: "4.1", isLiked: false, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -102,7 +95,7 @@ class InfoList: ObservableObject {
             11: [SkinRange(minNumber: 551, maxNumber: 670)],
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
         ]),
-        Case(id: 5, name: "Детектив Пикачу", type: 1, isNew: true, price: 69, secPrice: 52, quantitySkins: 38, photoOfCase: "5", photoOfWeapon: "5.1", isLiked: true, skinRanges: [
+        Case(id: 5, name: "WINTER OFFENSIVE", type: 1, isNew: true, price: 69, secPrice: 52, quantitySkins: 38, photoOfCase: "5", photoOfWeapon: "5.1", isLiked: true, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -116,7 +109,7 @@ class InfoList: ObservableObject {
             11: [SkinRange(minNumber: 551, maxNumber: 670)],
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
                 ]),
-        Case(id: 6, name: "Веном", type: 1, isNew: true, price: 140, secPrice: 0, quantitySkins: 35, photoOfCase: "6", photoOfWeapon: "6.1", isLiked: false, skinRanges: [
+        Case(id: 6, name: "OPERATION BRAVO", type: 1, isNew: true, price: 140, secPrice: 0, quantitySkins: 35, photoOfCase: "6", photoOfWeapon: "6.1", isLiked: false, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],
@@ -130,7 +123,7 @@ class InfoList: ObservableObject {
             11: [SkinRange(minNumber: 551, maxNumber: 670)],
             12: [SkinRange(minNumber: 671, maxNumber: 700)]
                 ]),
-        Case(id: 7, name: "Гладиатор", type: 1, isNew: false, price: 400, secPrice: 379, quantitySkins: 44, photoOfCase: "7", photoOfWeapon: "7.1", isLiked: false, skinRanges: [
+        Case(id: 7, name: "BRAVO CASE", type: 1, isNew: false, price: 400, secPrice: 379, quantitySkins: 44, photoOfCase: "7", photoOfWeapon: "7.1", isLiked: false, skinRanges: [
             1: [SkinRange(minNumber: 1, maxNumber: 10), SkinRange(minNumber: 51, maxNumber: 60)],
             2: [SkinRange(minNumber: 11, maxNumber: 50), SkinRange(minNumber: 201, maxNumber: 300)],
             3: [SkinRange(minNumber: 61, maxNumber: 70), SkinRange(minNumber: 801, maxNumber: 820)],

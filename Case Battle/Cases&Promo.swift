@@ -1,10 +1,3 @@
-//
-//  Cases.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 23.04.24.
-//
-
 import Foundation
 import SwiftData
 

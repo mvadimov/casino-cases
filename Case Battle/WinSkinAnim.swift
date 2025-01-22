@@ -1,10 +1,3 @@
-//
-//  WinSkinAnim.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 8.05.24.
-//
-
 import SwiftUI
 import SwiftData
 

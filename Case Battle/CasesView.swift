@@ -1,10 +1,3 @@
-//
-//  CaseView.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 23.04.24.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -63,9 +56,6 @@ struct CaseView: View {
             }
             ZStack {
                 Image(currCase.photoOfCase)
-                    .resizable()
-                    .frame(width: 150, height: 150)
-                Image(currCase.photoOfWeapon)
                     .resizable()
                     .frame(width: 150, height: 150)
             }

@@ -1,10 +1,3 @@
-//
-//  OpenAnimView.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 30.04.24.
-//
-
 import SwiftUI
 import SwiftData
 

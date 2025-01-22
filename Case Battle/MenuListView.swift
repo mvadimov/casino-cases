@@ -1,10 +1,3 @@
-//
-//  SwiftUIView.swift
-//  Case Battle
-//
-//  Created by Mark Vadimov on 14.05.24.
-//
-
 import SwiftUI
 import SwiftData
 
