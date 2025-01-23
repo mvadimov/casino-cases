@@ -1,4 +1,4 @@
-<h1 align="left">Case Battle</h1>
+<h1 align="left">Case Battle SwiftUI</h1>
 <h4 align="left">This app is a web platform Case-Battle, that allows users to open cases from the game Counter-Strike 2. The app is designed in the style of an online casino, offering an engaging interface and gameplay experience.</h4>
 <br>
 <img src="https://github.com/user-attachments/assets/accf6a2c-43b7-4cb9-bced-1fdac0afa6a9" height="full"/>
